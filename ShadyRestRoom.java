@@ -15,9 +15,9 @@ public class ShadyRestRoom
                    INVALID_R = "Invalid choose";
       Scanner input = new Scanner(System.in);
       System.out.println("\nMenu\n");
-      System.out.println("(1) " + Queen_R);
-      System.out.println("(2) " + King_R);
-      System.out.println("(3) "+ KingAndPullout_R);
+       System.out.println("(1) " + Queen_R + "\n(2) " + King_R + 
+                                    "\n(3) "+ KingAndPullout_R);
+      
       System.out.print("Enter Selection (1, 2, or 3)>> ");
       choose = input.nextInt();
       if(choose == Queen)
