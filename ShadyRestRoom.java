@@ -12,7 +12,7 @@ public class ShadyRestRoom
       final String Queen_R = "Queen ",
                    King_R = "King ",
                    KingAndPullout_R = "King and Pullout",
-                   INVALID_R = "Invalid selection";
+                   INVALID_R = "Invalid choose";
       Scanner input = new Scanner(System.in);
       System.out.println("\nMenu\n");
       System.out.println("(1) " + Queen_R);
