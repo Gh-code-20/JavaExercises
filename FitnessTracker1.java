@@ -1,6 +1,4 @@
-//Ghadir
 
-import java.time.*;
 public class FitnessTracker1 
 {
     String activaty;
