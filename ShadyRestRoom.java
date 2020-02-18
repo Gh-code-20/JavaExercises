@@ -19,7 +19,7 @@ public class ShadyRestRoom
       System.out.println("(2) " + King_R);
       System.out.println("(3) "+ KingAndPullout_R);
       System.out.print("Enter Selection (1, 2, or 3)>> ");
-      selection = input.nextInt();
+      choose = input.nextInt();
       if(choose == Queen)
       {
          result = Queen_R;
