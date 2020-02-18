@@ -1,6 +1,5 @@
 // Ghadir 
 
-import java.time.*;
 public class TestFitnessTracker1
 {
     public static void main(String[] args) {
@@ -11,7 +10,7 @@ public class TestFitnessTracker1
         System.out.println( "The Avrage of running is  " + exercise.getAvrage());
 
         // ex 3b pg225
-       FitnessTracker1 exercise2 = new FitnessTracker1("Wlaking", "John Smith", 30, 15);
+       FitnessTracker1 exercise2 = new FitnessTracker1("Walking", "John Smith", 30, 15);
 
         System.out.println(exercise2.getClient() + " " + exercise2.getActivaty() + 
         " for "+ exercise2.getMinutes1() + 
