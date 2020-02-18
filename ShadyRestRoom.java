@@ -3,7 +3,7 @@ public class ShadyRestRoom
 {
    public static void main (String[] args)
    {
-      int choose;
+      int Select;
       int price;
       String result;
       final int Queen = 1, King = 2, KingAndPullout = 3;
@@ -12,27 +12,27 @@ public class ShadyRestRoom
       final String Queen_R = "Queen ",
                    King_R = "King ",
                    KingAndPullout_R = "King and Pullout",
-                   INVALID_R = "Invalid choose";
+                   INVALID_R = "Invalid selection";
       Scanner input = new Scanner(System.in);
       System.out.println("\nMenu\n");
-       System.out.println("(1) " + Queen_R + "\n(2) " + King_R + 
+      System.out.println("(1) " + Queen_R + "\n(2) " + King_R + 
                                     "\n(3) "+ KingAndPullout_R);
-      
+
       System.out.print("Enter Selection (1, 2, or 3)>> ");
-      choose = input.nextInt();
-      if(choose == Queen)
+      Select = input.nextInt();
+      if(Select == Queen)
       {
          result = Queen_R;
          price = Queen_PR;
       }
       else
-         if(choose == King)
+         if(Select == King)
          {
             result = King_R;
             price = King_PR;
          }
          else
-            if (choose == KingAndPullout)
+            if (Select == KingAndPullout)
             {
                 result = KingAndPullout_R;
                 price = KingAndPullout_PR;
@@ -42,7 +42,7 @@ public class ShadyRestRoom
                 result = INVALID_R;
                 price = 0;
              }
-      System.out.println("You selected " + result + "  $" + price);
+      System.out.println("Your Selection " + result + "  $" + price);
       input.close();
    }
 
