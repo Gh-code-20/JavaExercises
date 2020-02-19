@@ -73,3 +73,17 @@ public class LittlePizzashop {
 			
 	}
 }
+
+/*
+Write an application for the Little Pizza shop. Ask the user to choose 1 for a large pizza or 2 for a medium pizza.
+The cost of a large pizza is $11 and the cost of a medium pizza is $7. Then, ask the user to choose 1 for pepperoni or 2 for sausage.
+The cost for pepperoni is $1 and the cost for sausage is $2.  Make sure that the user only chooses 1 for a large or 2 for a medium.
+ If they enter another number (other than a 1 or 2), display "You entered an incorrect choice, please try again." 
+ Do not allow entry for the kind of topping if they make an incorrect choice for the size of pizza. 
+ If the user enters any number other than 1 or 2 for the topping, then automatically charge them for a plain cheese pizza. 
+ There is a 10% sales tax added to the subtotal. For example, a medium pizza plus sausage is $9 plus 10% sales tax = $9.90 total. 
+ Use if/else statements and do not use switch/case statements.
+
+After the user makes the choices, then display the total cost owed that includes the sales tax and 
+the size of the pizza ordered and the topping chosen.
+ */
