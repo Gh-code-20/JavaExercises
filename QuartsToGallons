@@ -1,0 +1,17 @@
+public class QuartsToGallons
+{
+    public static void main(String[] args)
+    {
+        final int QUARTS_IN_GALLON = 4; 
+        //final is a final value never changes
+        int quartsNeeded = 18;
+        int gallonsNeeded; // we need to know how many gallon we need ?????
+        int extraQuartsNeeded;
+        gallonsNeeded = quartsNeeded / QUARTS_IN_GALLON; // will be 4.5 but because we use integr so it is 4
+        extraQuartsNeeded = quartsNeeded % QUARTS_IN_GALLON; // % is the remander يعني الباقي من القسمه
+        System.out.println("A job that needs " + quartsNeeded +
+         " quarts requires " + gallonsNeeded + " gallons plus " + 
+         extraQuartsNeeded + " quarts."); 
+    } 
+}
+
